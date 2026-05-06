@@ -39,6 +39,13 @@ function createServer() {
   return server;
 }
 
+app.get("/mcp", (req, res) => {
+  res.json({
+    status: "ok"
+  });
+});
+
+
 app.post("/mcp", async (req, res) => {
 
   const sessionId = req.headers["mcp-session-id"];
