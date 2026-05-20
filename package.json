@@ -9,5 +9,5 @@
     "@modelcontextprotocol/sdk": "latest",
     "express": "latest",
     "zod": "latest"
-  }  
+  }
 }
